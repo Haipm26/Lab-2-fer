@@ -92,7 +92,7 @@
 .cart-status {
   gap: 8px;
   padding: 9px 14px;
-  border-radius: 999px;
+  border-radius: 10px;
   background: var(--teal);
   color: #ffffff;
   font-weight: 800;

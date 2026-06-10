@@ -1,23 +1,28 @@
 import { Carousel } from 'react-bootstrap'
 
+import img1 from '../assets/navbarimg1.jpg'
+import img2 from '../assets/navbarimg2.jpg'
+import img3 from '../assets/navbarimg3.jpg'
+
+
 const slides = [
     {
         title: 'FASHION COLLECTION 2026',
         description: 'Discover the latest fashion trends for 2026',
         image:
-            'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1600&q=80',
+            img1,
     },
     {
         title: 'SUMMER SALE UP TO 50%',
         description: 'Enjoy special discounts on selected products',
         image:
-            'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80',
+            img2,
     },
     {
         title: 'NEW ARRIVALS',
         description: 'Explore our newest clothing collection.',
         image:
-            'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1600&q=80',
+            img3,
     },
 ]
 
